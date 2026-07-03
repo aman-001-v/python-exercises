@@ -1,0 +1,1 @@
+print('Some dead person once said, "To win is to lose, To live is die"')
