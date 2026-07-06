@@ -1,0 +1,7 @@
+Video content error 
+The instructor starts by restating the problem: given preorder and inorder
+traversal arrays, reconstruct the original binary tree. He uses an example tree to verify how preorder visits root-left-right and inorder visits left-root-right, showing
+ that the traversals contain enough information to recover the tree.
+
+He then explains the key idea: the first preorder value is always the current root, and 
+that root’s position in the inorder array splits the remaining nodes into error left and right subtrees. Those subtree sizes tell you how to partition preorder for recursive calls.
