@@ -1,0 +1,6 @@
+INFO User logged in
+ERROR Database connection failed
+INFO Request received
+WARNING High memory usage
+ERROR Timeout
+INFO Logout
